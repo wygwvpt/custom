@@ -71,7 +71,7 @@
     "timelimit": "\/me @%%NAME%%, песня длиннее %%MAXLENGTH%% минут, так не пойдет.",
     "permissionownsong": "\/me :up: @%%NAME%% может ставить свой сет!",
     "isblacklisted": "\/me Это в %%BLACKLIST%% черном листе! Не канает!",
-    "isopen": "\/me Пошла жара! Пиши !join (играем на место в очереди).",
+    "isopen": "\/me Пошла жара! Ебаное казино в эфире! Пиши !join (играем на место в очереди).",
     "winnerpicked": "\/me Харош!  @%%NAME%% занимает позицию %%POSITION%%.",
     "ball": "\/me %%NAME%% спросил, \"%%QUESTION%%\" и %%BOTNAME%% ответил: \"%%RESPONSE%%\"",
     "notghosting": "[%%NAME1%%] %%NAME2%% в подозрительных действиях не замечет.",
