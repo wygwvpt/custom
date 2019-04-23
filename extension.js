@@ -92,7 +92,7 @@
         afkpositionCheck: 15,
         afkRankCheck: 'user',
         motdEnabled: false,
-        motdInterval: 5,
+        motdInterval: 7,
         motd: 'ОП — хуй',
         filterChat: false,
         etaRestriction: false,
