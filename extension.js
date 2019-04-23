@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "qykexa";
+    var fork = "wygwvpt";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -55,9 +55,9 @@
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         autowoot: true,
-        autoskip: false,
+        autoskip: true,
         smartSkip: true,
-        cmdDeletion: true,
+        cmdDeletion: false,
         maximumAfk: 120,
         afkRemoval: false,
         maximumDc: 60,
@@ -70,30 +70,30 @@
         maximumCycletime: 10,
         voteSkip: true,
         voteSkipLimit: 10,
-        historySkip: false,
+        historySkip: true,
         timeGuard: true,
         strictTimeGuard: true,
         maximumSongLength: 10,
         autodisable: false,
-        commandCooldown: 30,
+        commandCooldown: 45,
         usercommandsEnabled: true,
         thorCommand: false,
         thorCooldown: 10,
         skipPosition: 3,
         skipReasons: [
-            ['theme', 'This song does not fit the room theme. '],
-            ['op', 'This song is on the OP list. '],
-            ['history', 'This song is in the history. '],
-            ['mix', 'You played a mix, which is against the rules. '],
-            ['sound', 'The song you played had bad sound quality or no sound. '],
-            ['nsfw', 'The song you contained was NSFW (image or sound). '],
-            ['unavailable', 'The song you played was not available for some users. ']
+            ['theme', 'Не по теме трек, браток. '],
+            ['op', 'Это ОПовский трек, вот так! '],
+            ['history', 'Было уже недавно. '],
+            ['mix', 'Миксы сейчас не время играть. '],
+            ['sound', 'Шакальный звук у твоего трека. '],
+            ['nsfw', 'Здесь культурные люди. '],
+            ['unavailable', 'Тут некоторые из Камбоджи, у них трек не открывается. ']
         ],
         afkpositionCheck: 15,
         afkRankCheck: 'user',
         motdEnabled: false,
         motdInterval: 5,
-        motd: 'Temporary Message of the Day',
+        motd: 'ОП — хуй',
         filterChat: false,
         etaRestriction: false,
         welcome: true,
@@ -107,11 +107,7 @@
         messageInterval: 5,
         songstats: true,
         commandLiteral: '!',
-        blacklists: {
-            NSFW: 'https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json',
-            OP: 'https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json',
-            BANNED: 'https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json'
-        }
+        blacklists: null
     }));
 
     // Start the bot and extend it when it has loaded.
